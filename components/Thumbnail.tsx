@@ -1,11 +1,11 @@
-import { DocumentData } from 'firebase/firestore'
+
 import Image from 'next/image'
 
 
 import { Movie } from '../typings'
 
 interface Props {
-    movie: Movie | DocumentData
+    movie: Movie
 }
 
 function Thumbnail({ movie }: Props) {
